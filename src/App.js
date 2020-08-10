@@ -31,6 +31,7 @@ class App extends Component {
 
     constructor() {
         super();
+        //deneme
         this.state = {
             layoutMode: 'static',
             layoutColorMode: 'dark',
