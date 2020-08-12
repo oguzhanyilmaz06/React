@@ -13,7 +13,7 @@ import {PanelsDemo} from './components/PanelsDemo';
 import {OverlaysDemo} from './components/OverlaysDemo';
 import {MenusDemo} from './components/MenusDemo';
 import {MessagesDemo} from './components/MessagesDemo';
-import {ChartsDemo} from './components/ChartsDemo';
+
 import {MiscDemo} from './components/MiscDemo';
 import {EmptyPage} from './components/EmptyPage';
 import {Documentation} from "./components/Documentation";
@@ -170,7 +170,7 @@ class App extends Component {
                     <Route path="/overlays" component={OverlaysDemo} />
                     <Route path="/menus" component={MenusDemo} />
                     <Route path="/messages" component={MessagesDemo} />
-                    <Route path="/charts" component={ChartsDemo} />
+                  
                     <Route path="/misc" component={MiscDemo} />
                     <Route path="/empty" component={EmptyPage} />
                     <Route path="/documentation" component={Documentation} />
