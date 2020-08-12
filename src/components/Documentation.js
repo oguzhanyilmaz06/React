@@ -85,16 +85,7 @@ export class Documentation extends Component {
     <div className="layout-main">
         <Route path="/" exact component={Dashboard} />
         <Route path="/forms" component={FormsDemo} />
-        <Route path="/sample" component={SampleDemo} />
-        <Route path="/data" component={DataDemo} />
-        <Route path="/panels" component={PanelsDemo} />
-        <Route path="/overlays" component={OverlaysDemo} />
-        <Route path="/menus" component={MenusDemo} />
-        <Route path="/messages" component={MessagesDemo} />
-        <Route path="/charts" component={ChartsDemo} />
-        <Route path="/misc" component={MiscDemo} />
-        <Route path="/empty" component={EmptyPage} />
-        <Route path="/documentation" component={Documentation} />
+  
     </div>
 
     <AppFooter />
@@ -135,13 +126,7 @@ createMenu() {
             items: [
                 {label: 'Sample Page', icon: 'pi pi-fw pi-star-o', command: () => {window.location = '#/sample'}},
                 {label: 'Forms', icon: 'pi pi-fw pi-calendar', command: () => {window.location = '#/forms'}},
-                {label: 'Data', icon: 'pi pi-fw pi-align-justify', command: () => {window.location = "#/data"}},
-                {label: 'Panels', icon: 'pi pi-fw pi-th-large', command: () => {window.location = "#/panels"}},
-                {label: 'Overlays', icon: 'pi pi-fw pi-clone', command: () => {window.location = "#/overlays"}},
-                {label: 'Menus', icon: 'pi pi-fw pi-bars', command: () => {window.location = "#/menus"}},
-                {label: 'Messages', icon: 'pi pi-fw pi-info-circle', command: () => {window.location = "#/messages"}},
-                {label: 'Charts', icon: 'pi pi-fw pi-clock', command: () => {window.location = "#/charts"}},
-                {label: 'Misc', icon: 'pi pi-fw pi-filter', command: () => {window.location = "#/misc"}}
+                
             ]
         },
         {
