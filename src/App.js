@@ -98,7 +98,7 @@ class App extends Component {
 
     createMenu() {
         this.menu = [
-            {label: 'Dashboard', icon: 'pi pi-fw pi-home', command: () => {window.location = '#/'}},
+            {label: 'Anasayfa', icon: 'pi pi-fw pi-home', command: () => {window.location = '#/'}},
            
             
             
@@ -134,7 +134,7 @@ class App extends Component {
     }
 
     render() {
-        const logo = this.state.layoutColorMode === 'dark' ? 'assets/layout/images/logo-white.svg': 'assets/layout/images/logo.svg';
+        const logo = this.state.layoutColorMode === 'dark' ? 'assets/layout/images/dilsemLogo.svg': 'assets/layout/images/dilsemLogo.svg';
 
         const wrapperClass = classNames('layout-wrapper', {
             'layout-overlay': this.state.layoutMode === 'overlay',
